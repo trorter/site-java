@@ -1,6 +1,6 @@
 import {FC} from "react";
 import {Space, Typography} from "antd";
-import {contentTextStyle, mainTextStyle, textStyle} from "./styles";
+import {contentTextStyle, mainTextStyle, textStyle} from "./style";
 
 const {Paragraph} = Typography;
 

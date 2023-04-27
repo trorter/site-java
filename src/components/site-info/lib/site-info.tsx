@@ -1,6 +1,6 @@
 import {CSSProperties, FC} from "react";
 import {Space} from "antd";
-import SiteLogo from "./site-logo";
+import SiteLogo from "./site-logo/site-logo";
 
 const siteInfoStyle: CSSProperties = {
 }
