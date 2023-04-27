@@ -1,19 +1,8 @@
-import React, {FC} from "react";
+import {FC} from "react";
 import {Space, Typography} from "antd";
+import {contentTextStyle, mainTextStyle, textStyle} from "./styles";
 
 const {Paragraph} = Typography;
-
-const textStyle: React.CSSProperties = {
-    color: 'inherit',
-};
-
-const mainTextStyle: React.CSSProperties = {
-    textAlign: "left",
-};
-
-const contentTextStyle: React.CSSProperties = {
-    textAlign: "justify",
-};
 
 const CopyRight: FC = () => {
     return (
@@ -21,7 +10,7 @@ const CopyRight: FC = () => {
             <Paragraph
                 style={{...textStyle, ...mainTextStyle}}>
 
-                Copyright © 2023 by Andrei Ledovskikh (an.y.ledov@gmail.com)
+                Copyright © 2023 by Andrei Ledovskikh
             </Paragraph>
             <Paragraph
                 style={{...textStyle, ...contentTextStyle}}>
@@ -31,6 +20,7 @@ const CopyRight: FC = () => {
                 recording, or other electronic or mechanical methods, without the prior
                 written permission of the publisher, except in the case of brief quotations embodied
                 in critical reviews and certain other noncommercial uses permitted by copyright law.
+                For permission requests, write to the following email: an.y.ledov@gmail.com.
             </Paragraph>
         </Space>
     )
