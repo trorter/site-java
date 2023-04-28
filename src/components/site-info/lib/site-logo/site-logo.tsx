@@ -34,8 +34,7 @@ export const SiteLogo: FC<SiteLogoProps> = ({alt, preview}) => {
             alt={alt}
             preview={preview}
             onClick={preview ?
-                () => {
-                } :
+                undefined :
                 handleClick}
             data-testid="SiteLogoTest"
         />
