@@ -118,7 +118,9 @@ const App: FC = () => {
                     </Content>
                     <Footer
                         style={footerStyle}>
-                        <CopyRight/>
+
+                        <CopyRight
+                            extended={true} />
                     </Footer>
                 </Layout>
             </Space>

@@ -44,6 +44,12 @@
     "build-storybook": "storybook build",
     "test:coverage": "react-scripts test --env=jsdom --watchAll=false --coverage"
   },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/stories/**"
+    ]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

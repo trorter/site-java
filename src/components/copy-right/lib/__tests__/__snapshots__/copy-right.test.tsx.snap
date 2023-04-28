@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render With props and pass the snapshot test 1`] = `
+<div
+  className="ant-space css-dev-only-do-not-override-yp8pcc ant-space-vertical"
+  style={Object {}}
+>
+  <div
+    className="ant-space-item"
+    style={
+      Object {
+        "marginBottom": 8,
+      }
+    }
+  >
+    <div
+      className="ant-typography css-dev-only-do-not-override-yp8pcc"
+      style={
+        Object {
+          "WebkitLineClamp": undefined,
+          "color": "inherit",
+          "textAlign": "left",
+        }
+      }
+    >
+      Copyright © 2023 by Andrei Ledovskikh
+    </div>
+  </div>
+  <div
+    className="ant-space-item"
+    style={Object {}}
+  >
+    <div
+      className="ant-typography css-dev-only-do-not-override-yp8pcc"
+      style={
+        Object {
+          "WebkitLineClamp": undefined,
+          "color": "inherit",
+          "textAlign": "justify",
+        }
+      }
+    >
+      All rights reserved. No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in critical reviews and certain other noncommercial uses permitted by copyright law. For permission requests, write to the following email: an.y.ledov@gmail.com.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should render Without props and pass the snapshot test 1`] = `
+<div
+  className="ant-space css-dev-only-do-not-override-yp8pcc ant-space-vertical"
+  style={Object {}}
+>
+  <div
+    className="ant-space-item"
+    style={Object {}}
+  >
+    <div
+      className="ant-typography css-dev-only-do-not-override-yp8pcc"
+      style={
+        Object {
+          "WebkitLineClamp": undefined,
+          "color": "inherit",
+          "textAlign": "left",
+        }
+      }
+    >
+      Copyright © 2023 by Andrei Ledovskikh
+    </div>
+  </div>
+</div>
+`;
