@@ -33,7 +33,11 @@ export const SiteLogo: FC<SiteLogoProps> = ({alt, preview}) => {
             style={imageStyle}
             alt={alt}
             preview={preview}
-            onClick={preview? () => {} : handleClick}
+            onClick={preview ?
+                () => {
+                } :
+                handleClick}
+            data-testid="SiteLogoTest"
         />
     )
 }

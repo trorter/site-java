@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render With props and pass the snapshot test 1`] = `
+<div
+  className="ant-image css-dev-only-do-not-override-yp8pcc"
+  data-testid="SiteLogoTest"
+  onClick={[Function]}
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  }
+>
+  <img
+    alt="⇈"
+    className="ant-image-img"
+    onLoad={[Function]}
+    src="/images/main_icon.svg"
+    style={
+      Object {
+        "height": 52,
+        "marginBottom": 2,
+      }
+    }
+  />
+</div>
+`;
