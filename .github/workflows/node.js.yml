@@ -35,6 +35,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: pwd
+      run: cd ..
+      
+    - name: pwd
       run: pwd
 
     - name: ls
