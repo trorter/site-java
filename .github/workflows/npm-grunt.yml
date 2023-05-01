@@ -28,6 +28,7 @@ jobs:
         npm i -f grunt --save-dev
         npm i -f grunt-contrib-jshint --save-dev
         npm i -f grunt-contrib-uglify --save-dev
+        npm i -f grunt-contrib-nodeunit --save-dev
         npm i -f grunt-cli --save-dev
         grunt jshint
         grunt
