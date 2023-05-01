@@ -25,4 +25,5 @@ jobs:
     - name: Build
       run: |
         npm i -f
+        npm i -f grunt-cli
         grunt
