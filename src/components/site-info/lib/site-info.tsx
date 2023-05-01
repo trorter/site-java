@@ -12,7 +12,7 @@ const SiteInfo: FC = () => {
             style={siteInfoStyle}
             align={"start"}>
 
-            <SiteLogo preview={true}/>
+            <SiteLogo />
 
         </Space>
     )
