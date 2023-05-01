@@ -26,5 +26,6 @@ jobs:
       run: |
         npm i -f
         npm i -f grunt --save-dev
+        npm i -f grunt-contrib-jshint --save-dev
         npm i -f grunt-cli --save-dev
         grunt
