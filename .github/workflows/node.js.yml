@@ -29,25 +29,12 @@ jobs:
         npm i -f
         npm run build
         npm test
-    
-  publish:
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-    - name: pwd
-      run: cd ..
-      
-    - name: pwd
-      run: pwd
-
-    - name: ls
-      run: ls
-    
+   
     - name: Docker Build & Push Action
       uses: mr-smithers-excellent/docker-build-push@v6.2
       with:
         image: trort/java-site
         registry: docker.io
-        tags: v1, latest
+        tags: latest
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
