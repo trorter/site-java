@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  build_and_push:
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -27,7 +27,7 @@ jobs:
         cache: 'npm'
         
     - run: | 
-        npm ci
+        npm ci -f
         npm test
         npm run build
    
